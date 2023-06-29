@@ -1,0 +1,10 @@
+citHeader("To cite zenodor in publications use:")
+
+bibentry(
+  bibtype = "Manual",
+  title   = "zenodor: {An} {R} package to ...",
+  author  = c(person("Casajus Nicolas")),
+  year    = "2023",
+  note    = "R package version 0.0.0.9000",
+  url     = "https://github.com/frbcesab/zenodor"
+)
