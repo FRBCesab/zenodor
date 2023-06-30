@@ -5,6 +5,6 @@ bibentry(
   title   = "zenodor: {An} {R} package to download files from a Zenodo repository",
   author  = c(person("Casajus Nicolas")),
   year    = "2023",
-  note    = "R package version 0.0.0.9000",
+  note    = "R package version 0.1",
   url     = "https://github.com/frbcesab/zenodor"
 )

@@ -54,7 +54,7 @@ The package `zenodor` contains two functions:
 Please cite this package as:
 
 > Casajus Nicolas (2023) zenodor: An R package to download files from a
-> Zenodo repository. R package version 0.0.0.9000. URL:
+> Zenodo repository. R package version 0.1. URL:
 > <https://github.com/frbcesab/zenodor>.
 
 ## Code of Conduct
