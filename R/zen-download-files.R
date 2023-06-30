@@ -137,13 +137,3 @@ zen_download_files <- function(record_id, token, path = ".", files = NULL) {
   
   invisible(NULL)
 }
-
-
-# record_id <- "8082807"
-#
-# token     <- paste0("eyJhbGciOiJIUzUxMiIsImV4cCI6MTY5MDY2Nzk5OSwiaWF0IjoxNjg4M",
-#                     "DQ0NjY2fQ.eyJkYXRhIjp7InJlY2lkIjo4MDgyODA3fSwiaWQiOjM1MDg",
-#                     "wLCJybmQiOiJkMTkzNDJmYyJ9.Z3B7xWc0j2m3KdqhacN-DC8NHr-mf0O",
-#                     "JSrfmzEI6GVL2InQX9M5GrIVWGlOtFtVFNtAm-PWZqavOpv0cl4VTaQ")
-# 
-# download_zenodo(record_id, token, path = ".")
