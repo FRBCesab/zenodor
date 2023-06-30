@@ -1,3 +1,4 @@
+
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # zenodor <img src="man/figures/package-sticker.png" align="right" style="float:right; height:120px;"/>
@@ -7,39 +8,54 @@
 [![R CMD
 Check](https://github.com/frbcesab/zenodor/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/frbcesab/zenodor/actions/workflows/R-CMD-check.yaml)
 [![Website](https://github.com/frbcesab/zenodor/actions/workflows/pkgdown.yaml/badge.svg)](https://github.com/frbcesab/zenodor/actions/workflows/pkgdown.yaml)
-[![CRAN
-status](https://www.r-pkg.org/badges/version/zenodor)](https://CRAN.R-project.org/package=zenodor)
-[![License: GPL (&gt;=
+[![License: GPL (\>=
 2)](https://img.shields.io/badge/License-GPL%20%28%3E%3D%202%29-blue.svg)](https://choosealicense.com/licenses/gpl-2.0/)
-[![Dependencies](https://img.shields.io/badge/dependencies-0/0-brightgreen?style=flat)](#)
 <!-- badges: end -->
 
-The goal of the R package `zenodor` is to **{{ PLEASE ADD A FEW LINES
-}}**
+The goal of the R package `zenodor` is to provide an CLI interface to
+list and download files from a Zenodo repository. This package works
+with open and restricted access repositories. For restricted repository
+a token must be provided.
+
+<figure>
+<img src="man/figures/zenodo-request.png"
+alt="Request a token for restricted Zenodo repo" />
+<figcaption aria-hidden="true">Request a token for restricted Zenodo
+repo</figcaption>
+</figure>
 
 ## Installation
 
 You can install the development version from
 [GitHub](https://github.com/) with:
 
-    # install.packages("remotes")
-    remotes::install_github("frbcesab/zenodor")
+``` r
+# install.packages("remotes")
+remotes::install_github("frbcesab/zenodor")
+```
 
 Then you can attach the package `zenodor`:
 
-    library("zenodor")
+``` r
+library("zenodor")
+```
 
 ## Overview
 
-Here is an overview of `zenodor` content: **{{ PLEASE ADD A FEW LINES
-}}**
+The package `zenodor` contains two functions:
+
+- [zen_list_files()](https://frbcesab.github.io/zenodor/reference/zen_list_files.html)
+  lists files available for download
+- [zen_download_files()](https://frbcesab.github.io/zenodor/reference/zen_download_files.html)
+  downloads one, several or all files available on the repo
 
 ## Citation
 
 Please cite this package as:
 
-> Casajus Nicolas (2023) zenodor: An R package to **{{ TITLE }}**. R
-> package version 0.0.0.9000.
+> Casajus Nicolas (2023) zenodor: An R package to download files from a
+> Zenodo repository. R package version 0.0.0.9000. URL:
+> <https://github.com/frbcesab/zenodor>.
 
 ## Code of Conduct
 

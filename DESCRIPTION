@@ -1,6 +1,6 @@
 Package: zenodor
 Type: Package
-Title: The Title of the Project
+Title: Download Files from a Zenodo Repository
 Version: 0.0.0.9000
 Authors@R: c(
     person(given   = "Nicolas",
@@ -8,8 +8,8 @@ Authors@R: c(
            role    = c("aut", "cre", "cph"),
            email   = "nicolas.casajus@fondationbiodiversite.fr",
            comment = c(ORCID = "0000-0002-5537-5294")))
-Description: A paragraph providing a full description of the project (on 
-    several lines...)
+Description: Lists and downloads available files of a Zenodo repository. For
+    restricted repository a token must be provided.
 URL: https://github.com/frbcesab/zenodor
 BugReports: https://github.com/frbcesab/zenodor/issues
 License: GPL (>= 2)
