@@ -6,10 +6,12 @@ output: github_document
 
 
 ```{r, include = FALSE}
-knitr::opts_chunk$set(collapse  = TRUE,
-                      comment   = "#>",
-                      fig.path  = "man/figures/",
-                      out.width = "100%")
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/",
+  out.width = "100%"
+)
 ```
 
 
@@ -22,6 +24,10 @@ zenodor <img src="man/figures/package-sticker.png" align="right" style="float:ri
 [![Website](https://github.com/frbcesab/zenodor/actions/workflows/pkgdown.yaml/badge.svg)](https://github.com/frbcesab/zenodor/actions/workflows/pkgdown.yaml)
 [![License: GPL (>= 2)](https://img.shields.io/badge/License-GPL%20%28%3E%3D%202%29-blue.svg)](https://choosealicense.com/licenses/gpl-2.0/)
 <!-- badges: end -->
+
+> [!CAUTION]
+> This project is no more maintained and some issues have been raised.
+> Please use [`zen4R`](https://eblondel.r-universe.dev/zen4R) instead.
 
 
 The goal of the R package `zenodor` is to provide an CLI interface to list and 

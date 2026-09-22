@@ -12,6 +12,10 @@ Check](https://github.com/frbcesab/zenodor/actions/workflows/R-CMD-check.yaml/ba
 2)](https://img.shields.io/badge/License-GPL%20%28%3E%3D%202%29-blue.svg)](https://choosealicense.com/licenses/gpl-2.0/)
 <!-- badges: end -->
 
+> \[!CAUTION\] This project is no more maintained and some issues have
+> been raised. Please use
+> [`zen4R`](https://eblondel.r-universe.dev/zen4R) instead.
+
 The goal of the R package `zenodor` is to provide an CLI interface to
 list and download files from a Zenodo repository. This package works
 with open and restricted access repositories. For restricted repository
@@ -53,7 +57,7 @@ The package `zenodor` contains two functions:
 
 Please cite this package as:
 
-> Casajus Nicolas (2023) zenodor: An R package to download files from a
+> Casajus Nicolas (2026) zenodor: An R package to download files from a
 > Zenodo repository. R package version 0.1. URL:
 > <https://github.com/frbcesab/zenodor>.
 
