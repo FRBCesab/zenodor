@@ -25,10 +25,11 @@ zenodor <img src="man/figures/package-sticker.png" align="right" style="float:ri
 [![License: GPL (>= 2)](https://img.shields.io/badge/License-GPL%20%28%3E%3D%202%29-blue.svg)](https://choosealicense.com/licenses/gpl-2.0/)
 <!-- badges: end -->
 
-> [!WARNING]
-> This project is no more maintained and some issues have been raised.
-> Please use [`zen4R`](https://eblondel.r-universe.dev/zen4R) instead.
-
+> **WARNING**
+>
+> This project is no more maintained and some issues have
+> been raised. Please use
+> [`zen4R`](https://eblondel.r-universe.dev/zen4R) instead.
 
 The goal of the R package `zenodor` is to provide an CLI interface to list and 
 download files from a Zenodo repository. This package works with open and 

@@ -12,7 +12,9 @@ Check](https://github.com/frbcesab/zenodor/actions/workflows/R-CMD-check.yaml/ba
 2)](https://img.shields.io/badge/License-GPL%20%28%3E%3D%202%29-blue.svg)](https://choosealicense.com/licenses/gpl-2.0/)
 <!-- badges: end -->
 
-> [!WARNING] This project is no more maintained and some issues have
+> **WARNING**
+>
+> This project is no more maintained and some issues have
 > been raised. Please use
 > [`zen4R`](https://eblondel.r-universe.dev/zen4R) instead.
 
